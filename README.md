@@ -5,7 +5,7 @@
   - Clone the repository: `git clone git@github.com:rap4all/housing.git`
   - Switch to the `docker` branch: `git checkout docker`
 
-- Builing custom image
+- Building custom image
   - Build the Docker image using `docker build -t housing_image .`
   - Tag your image `docker tag housing_image angelfelizr/housing_image:0.0.99`
   - Now we can run the pipeline with the next comand `docker run --rm --name housing_container -v /c/Users/angel/R-folder/housing/output:/home/housing/shared_folder angelfelizr/housing_image:0.0.99`
